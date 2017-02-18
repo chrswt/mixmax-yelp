@@ -1,19 +1,15 @@
 const generateTemplate = (name, rating, reviewCount, imageUrl, location, url) => {
-  // Prevent text overflow on address line
-  if (location.length >= 48) {
-    location = location.slice(0, 49) + '...';
-  }
-
-  // Generate html template of business listing
+  // Generate template for business listing
   return `
-    <div style="font-weight: 200; font-family: 'Helvetica Neue';
-      height: 100px; width: 500px; cursor: pointer">
+    <div style="font-weight: 200; font-family: 'Helvetica Neue'; text-overflow: ellipsis; overflow: hidden; white-space: nowrap; height: 100px; width: 500px;">
       <div style="display: inline; float: left; margin-right: 10px">
         <img src="${imageUrl}"></img>
       </div>
       <div style="display: inline-block; max-width: 390px;">
-        <div style="font-size: 32px">${name}</div>
-        <div>${location}</div>
+        <div style="font-size: 32px; text-overflow: ellipsis; overflow: hidden">
+          ${name}
+        </div>
+        <div style="text-overflow: ellipsis; overflow: hidden">${location}</div>
         <div style="margin-top: 5px">
           <div style="display: inline;">
             <img src="${rating}"></img>

@@ -1,6 +1,4 @@
 const generateTemplate = (name, rating, address) => {
-
-
   // Generate template for search predictions
   return `
     <div style="font-weight: 300; font-family: 'Helvetica Neue', sans-serif; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;">
