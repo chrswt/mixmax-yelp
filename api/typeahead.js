@@ -27,7 +27,7 @@ module.exports = (req, res) => {
           title: template(place.name, place.rating_img_url,
                           place.location.display_address.join(', ')),
           text: place.id
-        }
+        };
       });
 
       // Render results
