@@ -1,0 +1,31 @@
+{
+  "name": "mixmax-yelp",
+  "version": "1.0.0",
+  "description": "Yelp integration for Mixmax email client",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrswt/mixmax-yelp.git"
+  },
+  "keywords": [
+    "mixmax",
+    "yelp-api"
+  ],
+  "author": "Christopher Tham <chriswt91@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chrswt/mixmax-yelp/issues"
+  },
+  "homepage": "https://github.com/chrswt/mixmax-yelp#readme",
+  "dependencies": {
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "https": "^1.0.0",
+    "pem": "^1.9.4",
+    "request": "^2.79.0",
+    "yelp": "^1.0.2"
+  }
+}
