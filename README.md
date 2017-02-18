@@ -1,9 +1,6 @@
-# mixmax-yelp
-Yelp integration for Mixmax email client
-
-https://www.yelp.com/developers/documentation/v3
-
 # Yelp integration for Mixmax
+This integration allows you to use a `/yelp` slash command to integrate a Yelp business listing along with a clickable outbound link to the business' Yelp page.
+
 This is an open source Mixmax Slash Command. See [Mixmax slash command](http://developer.mixmax.com/docs/overview-slash-commands#tutorial-building-mygiphy) for more information on building integrations in Mixmax.
 
 ## Demo
