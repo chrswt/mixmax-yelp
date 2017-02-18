@@ -22,6 +22,6 @@ Mixmax slash command APIs are required to be served over https. This is because 
 ## Adding the slash command in Mixmax
 1. Go to your [Mixmax integration settings panel](https://app.mixmax.com/dashboard/settings/integrations)
 1. Click **Add Slash Command** and enter the following values:
-  ![Mixmax slash command](resources/slash_command.png)
+  <img src="resources/slash_command.png") width="438">
 
 Detailed instructions can be found [here](https://mixmax.com/blog/giphy-slash-command).
