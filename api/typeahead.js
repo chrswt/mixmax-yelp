@@ -1,5 +1,5 @@
 const yelp     = require('../utils/yelp');
-const template = require('../templates/search');
+const template = require('../templates/search').generateTemplate;
 
 module.exports = (req, res) => {
   // Extract trailing query term after slash command is resolved
